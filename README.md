@@ -6,8 +6,6 @@ AI StudyStation revolutionizes the way students and educators manage their acade
 
 <br/>
 
-![AI StudyStation Landing Page](https://github.com/ZainAli97/Hoobank-App/assets/131141179/053969c8-8dd4-41ed-8a44-40d0ff9a2250)
-
 ## 🎯 Features
 
 - **AI-Powered Note Generation**: Upload handwritten notes or topics and let GPT-4 generate structured, editable study materials
