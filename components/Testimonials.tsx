@@ -1,31 +1,29 @@
-import { feedback } from "@/constants";
-import styles from "@/styles/style";
-import FeedbackCard from "./FeedbackCard";
+import { card } from "@/public/assets";
+import styles, { layout } from "@/styles/style";
+import Button from "./Button";
+import Image from "next/image";
 
-const Testimonials: React.FC = () => (
-  <section
-    id="clients"
-    className={`${styles.paddingY} ${styles.flexCenter} flex-col relative`}
-  >
-    <div className="absolute z-[0] w-[60%] h-[60%] -right-[50%] rounded-full blue__gradient" />
-    <div className="w-full flex justify-between items-center md:flex-row flex-col sm:mb-10 mb-6 relative z-[1]">
-      <h1 className={styles.heading2}>
-        What people are <br className="sm:block hidden" /> saying about us.
-      </h1>
-      <div className="w-full md:mt-0 mt-6">
-        <p className={`${styles.paragraph} text-left max-w-[450px]`}>
-          Discover how AI StudyStation is transforming the way students create,
-          manage, and access their study materials with intelligent note
-          generation and secure printing.
-        </p>
-      </div>
+const CardDeal: React.FC = () => (
+  <section className={`${layout.section}`}>
+    <div className={`${layout.sectionInfo} animate-fade-in-left`}>
+      <h2 className={`${styles.heading2} font-josefin`}>
+        Find a better card deal <br className="sm:block hidden" />
+        in few easy steps.
+      </h2>
+      <p
+        className={`${styles.paragraph} font-josefin max-w-[470px] mt-5 animate-fade-in-left animation-delay-200`}
+      >
+        Access exclusive student discounts and payment plans. Our token-based
+        system offers flexible pricing options, allowing you to purchase
+        printing credits in bulk at discounted rates. No hidden fees, complete
+        transparency.
+      </p>
+      <Button styles="mt-10 animate-fade-in-left animation-delay-400" />
     </div>
-    <div className="flex flex-wrap sm:justify-start justify-center w-full feedback-container relative z-[1]">
-      {feedback.map((card) => (
-        <FeedbackCard key={card.id} {...card} />
-      ))}
+    <div className={`${layout.sectionImg} animate-fade-in-right`}>
+      <Image src={card} alt="card" className="w-[100%] h-[100%]" />
     </div>
   </section>
 );
 
-export default Testimonials;
+export default CardDeal;

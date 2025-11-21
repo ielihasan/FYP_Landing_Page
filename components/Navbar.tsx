@@ -7,15 +7,27 @@ import Image from "next/image";
 const Navbar: React.FC = () => {
   const [toggle, setToggle] = useState(false);
   return (
-    <nav className="w-full flex py-6 justify-between items-center navbar">
-      <Image src={logo} alt="AI StudyStation" width={124} height={32} />
+    <nav className="w-full flex py-6 justify-between items-center navbar animate-fade-in-down">
+      <div className="flex items-center gap-2">
+        <Image
+          src={logo}
+          alt="AI StudyStation"
+          width={40}
+          height={40}
+          className="animate-fade-in-left"
+        />
+        <span className="font-josefin font-semibold text-white text-[20px] animate-fade-in-left animation-delay-200">
+          AIStudyStation
+        </span>
+      </div>
       <ul className="list-none sm:flex hidden justify-end items-center flex-1">
         {navLinks.map((nav, index) => (
           <li
             key={nav.id}
-            className={`font-poppins font-normal cursor-pointer text-[16px] text-white ${
+            className={`font-josefin font-normal cursor-pointer text-[16px] text-white hover:text-secondary transition-colors duration-300 animate-fade-in-down ${
               index === navLinks.length - 1 ? "mr-0" : "mr-10"
             }`}
+            style={{ animationDelay: `${index * 0.1}s` }}
           >
             <a href={`#${nav.id}`}>{nav.title}</a>
           </li>
@@ -25,7 +37,7 @@ const Navbar: React.FC = () => {
         <Image
           src={toggle ? close : menu}
           alt="menu"
-          className="object-contain"
+          className="object-contain cursor-pointer"
           width={28}
           height={28}
           onClick={() => setToggle((prev) => !prev)}
@@ -38,7 +50,7 @@ const Navbar: React.FC = () => {
             {navLinks.map((nav, index) => (
               <li
                 key={nav.id}
-                className={`font-poppins font-normal cursor-pointer text-[16px] text-white ${
+                className={`font-josefin font-normal cursor-pointer text-[16px] text-white ${
                   index === navLinks.length - 1 ? "mr-0" : "mb-4"
                 }`}
               >
