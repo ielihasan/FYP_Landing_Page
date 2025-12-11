@@ -16,8 +16,8 @@ module.exports = {
       },
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],
-        nofret: ["Nofret Light", "sans-serif"],
-        josefin: ["Josefin Sans", "sans-serif"],
+        inter: ["Inter", "sans-serif"],
+        outfit: ["Outfit", "sans-serif"],
       },
     },
     screens: {

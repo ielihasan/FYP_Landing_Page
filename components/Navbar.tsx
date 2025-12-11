@@ -11,13 +11,13 @@ const Navbar: React.FC = () => {
       <div className="flex items-center gap-2">
         <Image
           src={logo}
-          alt="AI StudyStation"
+          alt="Smart Business Support"
           width={40}
           height={40}
           className="animate-fade-in-left"
         />
         <span className="font-josefin font-semibold text-white text-[20px] animate-fade-in-left animation-delay-200">
-          AIStudyStation
+          Smart Business Support
         </span>
       </div>
       <ul className="list-none sm:flex hidden justify-end items-center flex-1">

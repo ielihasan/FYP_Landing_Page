@@ -7,7 +7,7 @@ const Billing: React.FC = () => (
     <div className={`${layout.sectionImgReverse} animate-fade-in-left`}>
       <Image
         src={bill}
-        alt="billing"
+        alt="queue_management"
         className="w-[100%] h-[100%] relative z-[5]"
       />
       <div className="absolute z-[3] -left-1/2 top-0 w-[50%] h-[50%] rounded-full white__gradient" />
@@ -15,16 +15,16 @@ const Billing: React.FC = () => (
     </div>
     <div className={`${layout.sectionInfo} animate-fade-in-right`}>
       <h2 className={`${styles.heading2} font-josefin`}>
-        Easily control your <br className="sm:block hidden" />
-        billing & invoicing.
+        Streamline your queue <br className="sm:block hidden" />
+        management & accessibility.
       </h2>
       <p
         className={`${styles.paragraph} font-josefin max-w-[470px] mt-5 animate-fade-in-right animation-delay-200`}
       >
-        Manage your academic expenses effortlessly with our integrated billing
-        system. Track your printing tokens, view transaction history, and
-        download invoices anytime. Our secure payment gateway ensures your data
-        remains protected.
+        Optimize your business operations with our intelligent queue management
+        system. Monitor real-time wait times, track customer flow, and ensure
+        accessibility for all users. Our inclusive platform provides seamless
+        service for every customer.
       </p>
       <div className="flex flex-row flex-wrap sm:mt-10 mt-6 animate-fade-in-up animation-delay-400">
         <Image

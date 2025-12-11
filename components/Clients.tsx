@@ -13,7 +13,7 @@ const Clients: React.FC = () => (
         >
           <Image
             src={client.logo}
-            alt="client"
+            alt="business_partner"
             className="sm:w-[192px] w-[100px] object-contain"
           />
         </div>

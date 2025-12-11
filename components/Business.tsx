@@ -2,7 +2,7 @@ import styles, { layout } from "@/styles/style";
 import { features } from "@/constants";
 import Button from "./Button";
 import Image from "next/image";
-import { FeatredCardProps } from "@types";
+import { FeatredCardProps } from "@/types";
 
 const FeaturesCard: React.FC<FeatredCardProps> = ({
   icon,
@@ -36,17 +36,17 @@ const Business: React.FC = () => (
   <section id="features" className={`${layout.section}`}>
     <div className={`${layout.sectionInfo} animate-fade-in-left`}>
       <h2 className={`${styles.heading2} font-josefin`}>
-        Focus on your studies, <br className="sm:block hidden" />
-        We'll handle the notes.
+        Focus on your business, <br className="sm:block hidden" />
+        We'll optimize the queues.
       </h2>
       <p
         className={`${styles.paragraph} font-josefin max-w-[470px] mt-5 animate-fade-in-left animation-delay-200`}
       >
-        AI StudyStation revolutionizes your academic workflow by automating note
-        generation and printing. Upload your topics or handwritten notes, and
-        our AI-powered system creates structured, editable study materials
-        instantly. Get your printed notes delivered securely through our
-        token-based printing system.
+        Smart Business Support Platform revolutionizes customer service with
+        real-time queue optimization. Monitor wait times, manage customer flow,
+        and ensure accessibility for all. Our intelligent system analyzes
+        patterns and provides actionable insights to enhance efficiency and
+        customer satisfaction.
       </p>
       <Button styles="mt-10 animate-fade-in-left animation-delay-400" />
     </div>

@@ -1,9 +1,9 @@
 import "@/styles/globals.css";
 
 export const metadata = {
-  title: "AI StudyStation",
+  title: "Smart Business Support Platform",
   description:
-    "AI StudyStation: Intelligent Note Generation & Automated Printing System - Revolutionize your academic workflow with AI-powered note creation and secure printing services",
+    "Smart Business Support Platform: Intelligent Queue Management & Accessibility Solutions - Revolutionize your customer service with real-time queue optimization and inclusive accessibility features",
 };
 
 const RootLayout = ({ children }: { children: React.ReactNode }) => {

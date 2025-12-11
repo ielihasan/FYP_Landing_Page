@@ -11,7 +11,7 @@ const GetStarted: React.FC = () => (
     >
       <div className={`${styles.flexStart} flex-row`}>
         <p className="font-josefin font-medium text-[18px] leading-[23px] mr-2">
-          <span className="text-gradient">Get</span>
+          <span className="text-gradient">Join</span>
         </p>
         <Image
           src={arrowUp}
@@ -20,7 +20,7 @@ const GetStarted: React.FC = () => (
         />
       </div>
       <p className="font-josefin font-medium text-[18px] leading-[23px]">
-        <span className="text-gradient">Started</span>
+        <span className="text-gradient">Queue</span>
       </p>
     </div>
   </div>

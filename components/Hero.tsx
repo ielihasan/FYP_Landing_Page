@@ -11,8 +11,8 @@ const Hero: React.FC = () => (
       <div className="flex flex-row items-center py-[6px] px-4 bg-discount-gradient rounded-[10px] mb-2 animate-fade-in-down">
         <Image src={discount} alt="discount" className="w-[32px] h-[32px]" />
         <p className="font-josefin text-dimWhite text-[18px] leading-[30.8px] ml-2">
-          <span className="text-white">Available</span> For{" "}
-          <span className="text-white">Businesses</span> & Educators
+          <span className="text-white">20%</span> Faster{" "}
+          <span className="text-white">Queue</span> Management
         </p>
       </div>
       <div className="flex flex-row justify-between items-center w-full">
@@ -25,19 +25,19 @@ const Hero: React.FC = () => (
         </div>
       </div>
       <h1 className="w-full font-josefin font-semibold ss:text-[68px] text-[52px] text-white ss:leading-[100px] leading-[75px] animate-fade-in-left animation-delay-200">
-        Study Platform.
+        Queue System.
       </h1>
       <p className="font-josefin text-dimWhite text-[18px] leading-[30.8px] max-w-[470px] mt-5 animate-fade-in-up animation-delay-400">
-        AI StudyStation revolutionizes academic workflows with intelligent note
-        generation powered by GPT-4. Upload handwritten notes, generate
-        structured study materials, and print securely at nearby print shops
-        with our token-based system.
+        Smart Business Support Platform revolutionizes customer service with
+        intelligent queue optimization. Real-time wait time monitoring,
+        automated notifications, and accessibility features ensure seamless
+        service delivery for every customer.
       </p>
     </div>
     <div className={`${styles.flexCenter} flex-1 flex md:my-0 my-10 relative`}>
       <Image
         src={robot}
-        alt="AI StudyStation"
+        alt="Smart Business Support"
         className="w-[100%] h-[100%] relative z-[5] animate-float"
       />
       <div className="absolute z-[0] w-[40%] h-[35%] top-0 pink__gradient animate-pulse-slow" />
