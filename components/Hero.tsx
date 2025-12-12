@@ -11,8 +11,8 @@ const Hero: React.FC = () => (
       <div className="flex flex-row items-center py-[6px] px-4 bg-discount-gradient rounded-[10px] mb-2 animate-fade-in-down">
         <Image src={discount} alt="discount" className="w-[32px] h-[32px]" />
         <p className="font-poppins text-dimWhite text-[18px] leading-[30.8px] ml-2">
-          <span className="text-white">Available</span> For{" "}
-          <span className="text-white">All</span> Businesses
+          Available For{" "}
+          <span className="text-white">All Service Businesses</span>
         </p>
       </div>
       <div className="flex flex-row justify-between items-center w-full">
@@ -25,13 +25,11 @@ const Hero: React.FC = () => (
         </div>
       </div>
       <h1 className="w-full font-poppins font-semibold ss:text-[68px] text-[52px] text-white ss:leading-[100px] leading-[75px] animate-fade-in-left animation-delay-200">
-        Queue Management.
+        Queue Management <br className="sm:block hidden" />{" "}
+        <span className="text-gradient">Platform</span>
       </h1>
       <p className="font-poppins text-dimWhite text-[18px] leading-[30.8px] max-w-[470px] mt-5 animate-fade-in-up animation-delay-400">
-        BusinessHub Pro revolutionizes customer service with intelligent queue
-        management powered by AI. Streamline operations, reduce wait times, and
-        enhance customer experience with real-time analytics and automated
-        workflow optimization.
+        BusinessHub Pro revolutionizes customer flow management with intelligent real-time queue optimization. Join queues remotely via QR codes, receive accurate wait time predictions, and enjoy seamless service experiences with automated notifications and digital order submission.
       </p>
     </div>
     <div className={`${styles.flexCenter} flex-1 flex md:my-0 my-10 relative`}>

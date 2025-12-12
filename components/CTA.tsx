@@ -7,11 +7,10 @@ const CTA: React.FC = () => (
   >
     <div className="flex-1 flex flex-col animate-fade-in-left">
       <h2 className={`${styles.heading2} font-poppins`}>
-        Let's try our service now!
+        Ready to transform your business?
       </h2>
       <p className={`${styles.paragraph} font-poppins max-w-[470px] mt-5`}>
-        Join thousands of businesses who are already experiencing the future of
-        efficient queue management and customer service optimization.
+        Join hundreds of service businesses who are already reducing wait times by 60% and increasing customer satisfaction with our intelligent queue management platform.
       </p>
     </div>
     <div

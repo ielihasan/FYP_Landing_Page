@@ -7,21 +7,18 @@ const CardDeal: React.FC = () => (
   <section className={`${layout.section}`}>
     <div className={`${layout.sectionInfo} animate-fade-in-left`}>
       <h2 className={`${styles.heading2} font-poppins`}>
-        Find a better card deal <br className="sm:block hidden" />
-        in few easy steps.
+        Flexible Business Plans <br className="sm:block hidden" />
+        <span className="text-gradient">for Every Size</span>
       </h2>
       <p
         className={`${styles.paragraph} font-poppins max-w-[470px] mt-5 animate-fade-in-left animation-delay-200`}
       >
-        Access exclusive business packages and flexible payment plans. Our
-        subscription-based system offers scalable pricing options, allowing you to
-        choose the perfect plan for your business size. No hidden fees, complete
-        transparency.
+        Access scalable subscription packages tailored to your business needs. Our flexible pricing supports single locations to multi-branch chains with features like QR check-in, SMS notifications, analytics dashboards, and priority support. No hidden fees, complete transparency.
       </p>
       <Button styles="mt-10 animate-fade-in-left animation-delay-400" />
     </div>
     <div className={`${layout.sectionImg} animate-fade-in-right`}>
-      <Image src={card} alt="card" className="w-[100%] h-[100%]" />
+      <Image src={card} alt="business plans" className="w-[100%] h-[100%]" />
     </div>
   </section>
 );
