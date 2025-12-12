@@ -7,7 +7,7 @@ const Billing: React.FC = () => (
     <div className={`${layout.sectionImgReverse} animate-fade-in-left`}>
       <Image
         src={bill}
-        alt="billing"
+        alt="analytics dashboard"
         className="w-[100%] h-[100%] relative z-[5]"
       />
       <div className="absolute z-[3] -left-1/2 top-0 w-[50%] h-[50%] rounded-full white__gradient" />
@@ -15,16 +15,13 @@ const Billing: React.FC = () => (
     </div>
     <div className={`${layout.sectionInfo} animate-fade-in-right`}>
       <h2 className={`${styles.heading2} font-poppins`}>
-        Easily control your <br className="sm:block hidden" />
-        billing & invoicing.
+        Comprehensive Analytics & <br className="sm:block hidden" />
+        <span className="text-gradient">Reporting Dashboard</span>
       </h2>
       <p
         className={`${styles.paragraph} font-poppins max-w-[470px] mt-5 animate-fade-in-right animation-delay-200`}
       >
-        Manage your business finances effortlessly with our integrated billing
-        system. Track service usage, view transaction history, and download
-        invoices anytime. Our secure payment gateway ensures your data remains
-        protected.
+        Track your business performance with real-time analytics, monitor customer flow patterns, optimize staff allocation, and make data-driven decisions. Our integrated dashboard provides insights into peak hours, service times, and customer satisfaction metrics.
       </p>
       <div className="flex flex-row flex-wrap sm:mt-10 mt-6 animate-fade-in-up animation-delay-400">
         <Image
