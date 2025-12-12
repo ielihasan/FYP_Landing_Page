@@ -10,8 +10,8 @@ const CTA: React.FC = () => (
         Let's try our service now!
       </h2>
       <p className={`${styles.paragraph} font-poppins max-w-[470px] mt-5`}>
-        Join thousands of students and educators who are already experiencing
-        the future of academic note-taking and printing.
+        Join thousands of businesses who are already experiencing the future of
+        efficient queue management and customer service optimization.
       </p>
     </div>
     <div

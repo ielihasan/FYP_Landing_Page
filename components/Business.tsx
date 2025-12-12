@@ -36,17 +36,17 @@ const Business: React.FC = () => (
   <section id="features" className={`${layout.section}`}>
     <div className={`${layout.sectionInfo} animate-fade-in-left`}>
       <h2 className={`${styles.heading2} font-poppins`}>
-        Focus on your studies, <br className="sm:block hidden" />
-        We'll handle the notes.
+        Focus on your business, <br className="sm:block hidden" />
+        We'll handle the queues.
       </h2>
       <p
         className={`${styles.paragraph} font-poppins max-w-[470px] mt-5 animate-fade-in-left animation-delay-200`}
       >
-        AI StudyStation revolutionizes your academic workflow by automating note
-        generation and printing. Upload your topics or handwritten notes, and
-        our AI-powered system creates structured, editable study materials
-        instantly. Get your printed notes delivered securely through our
-        token-based printing system.
+        BusinessHub Pro revolutionizes your customer service operations by
+        automating queue management. Monitor real-time customer flow, optimize
+        staff allocation, and reduce wait times with our AI-powered system.
+        Improve customer satisfaction with intelligent queue analytics and
+        automated notifications.
       </p>
       <Button styles="mt-10 animate-fade-in-left animation-delay-400" />
     </div>

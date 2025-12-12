@@ -38,23 +38,23 @@ export const features = [
   {
     id: "feature-1",
     icon: star,
-    title: "AI-Powered Notes",
+    title: "Smart Queue Management",
     content:
-      "Generate structured study notes instantly using GPT-4 technology from topics or handwritten inputs with OCR integration.",
+      "Intelligently manage customer queues with AI-powered flow optimization, automated check-ins, and real-time status updates.",
   },
   {
     id: "feature-2",
     icon: shield,
-    title: "Secure Printing",
+    title: "Secure Operations",
     content:
-      "Token-based authentication ensures safe and traceable delivery of your printed materials at nearby print shops.",
+      "Enterprise-grade security ensures safe data handling, protected customer information, and compliance with industry standards.",
   },
   {
     id: "feature-3",
     icon: send,
-    title: "Quick Delivery",
+    title: "Quick Service",
     content:
-      "Real-time print queue management connects you with local print shops for fast and reliable document delivery.",
+      "Real-time notifications and automated workflows reduce wait times and improve customer satisfaction with efficient service delivery.",
   },
 ];
 
@@ -62,25 +62,25 @@ export const feedback = [
   {
     id: "feedback-1",
     content:
-      "AI StudyStation has completely transformed how I organize my study materials. The AI-generated notes are comprehensive and save me hours of work!",
+      "BusinessHub Pro has completely transformed how we manage customer flow. The AI-powered queue system reduced our wait times by 60%!",
     name: "Sarah Ahmed",
-    title: "Computer Science Student",
+    title: "Retail Store Manager",
     img: people01,
   },
   {
     id: "feedback-2",
     content:
-      "The token-based printing system is brilliant! I can upload my notes and pick them up from the nearest print shop without any hassle.",
+      "The real-time analytics dashboard is brilliant! We can now optimize staff allocation and improve customer satisfaction significantly.",
     name: "Ali Hassan",
-    title: "Engineering Student",
+    title: "Operations Director",
     img: people02,
   },
   {
     id: "feedback-3",
     content:
-      "As an educator, this platform helps me quickly create structured study materials for my students. The OCR feature is incredibly accurate!",
+      "As a business owner, this platform helps us provide excellent customer service while managing high traffic efficiently. The ROI has been remarkable!",
     name: "Dr. Fatima Khan",
-    title: "University Lecturer",
+    title: "Clinic Owner",
     img: people03,
   },
 ];
@@ -88,17 +88,17 @@ export const feedback = [
 export const stats = [
   {
     id: "stats-1",
-    title: "Active Users",
+    title: "Active Businesses",
     value: "3800+",
   },
   {
     id: "stats-2",
-    title: "Print Shops",
+    title: "Locations",
     value: "230+",
   },
   {
     id: "stats-3",
-    title: "Notes Generated",
+    title: "Customers Served",
     value: "50K+",
   },
 ];
@@ -110,23 +110,23 @@ export const footerLinks = [
     links: [
       {
         name: "Features",
-        link: "https://www.aistudystation.com/features/",
+        link: "https://www.businesshubpro.com/features/",
       },
       {
         name: "How it Works",
-        link: "https://www.aistudystation.com/how-it-works/",
+        link: "https://www.businesshubpro.com/how-it-works/",
       },
       {
         name: "Mobile App",
-        link: "https://www.aistudystation.com/mobile-app/",
+        link: "https://www.businesshubpro.com/mobile-app/",
       },
       {
         name: "Admin Dashboard",
-        link: "https://www.aistudystation.com/admin/",
+        link: "https://www.businesshubpro.com/admin/",
       },
       {
         name: "Terms & Services",
-        link: "https://www.aistudystation.com/terms-and-services/",
+        link: "https://www.businesshubpro.com/terms-and-services/",
       },
     ],
   },
@@ -136,23 +136,23 @@ export const footerLinks = [
     links: [
       {
         name: "Help Center",
-        link: "https://www.aistudystation.com/help-center/",
+        link: "https://www.businesshubpro.com/help-center/",
       },
       {
-        name: "Print Partners",
-        link: "https://www.aistudystation.com/partners/",
+        name: "Business Partners",
+        link: "https://www.businesshubpro.com/partners/",
       },
       {
         name: "Feedback",
-        link: "https://www.aistudystation.com/feedback/",
+        link: "https://www.businesshubpro.com/feedback/",
       },
       {
         name: "Blog",
-        link: "https://www.aistudystation.com/blog/",
+        link: "https://www.businesshubpro.com/blog/",
       },
       {
         name: "Updates",
-        link: "https://www.aistudystation.com/updates/",
+        link: "https://www.businesshubpro.com/updates/",
       },
     ],
   },
@@ -162,11 +162,11 @@ export const footerLinks = [
     links: [
       {
         name: "Our Partners",
-        link: "https://www.aistudystation.com/our-partners/",
+        link: "https://www.businesshubpro.com/our-partners/",
       },
       {
-        name: "Become a Print Shop Partner",
-        link: "https://www.aistudystation.com/become-a-partner/",
+        name: "Become a Business Partner",
+        link: "https://www.businesshubpro.com/become-a-partner/",
       },
     ],
   },

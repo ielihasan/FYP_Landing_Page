@@ -12,7 +12,7 @@ const Hero: React.FC = () => (
         <Image src={discount} alt="discount" className="w-[32px] h-[32px]" />
         <p className="font-poppins text-dimWhite text-[18px] leading-[30.8px] ml-2">
           <span className="text-white">Available</span> For{" "}
-          <span className="text-white">Businesses</span> & Educators
+          <span className="text-white">All</span> Businesses
         </p>
       </div>
       <div className="flex flex-row justify-between items-center w-full">
@@ -25,19 +25,19 @@ const Hero: React.FC = () => (
         </div>
       </div>
       <h1 className="w-full font-poppins font-semibold ss:text-[68px] text-[52px] text-white ss:leading-[100px] leading-[75px] animate-fade-in-left animation-delay-200">
-        Study Platform.
+        Queue Management.
       </h1>
       <p className="font-poppins text-dimWhite text-[18px] leading-[30.8px] max-w-[470px] mt-5 animate-fade-in-up animation-delay-400">
-        AI StudyStation revolutionizes academic workflows with intelligent note
-        generation powered by GPT-4. Upload handwritten notes, generate
-        structured study materials, and print securely at nearby print shops
-        with our token-based system.
+        BusinessHub Pro revolutionizes customer service with intelligent queue
+        management powered by AI. Streamline operations, reduce wait times, and
+        enhance customer experience with real-time analytics and automated
+        workflow optimization.
       </p>
     </div>
     <div className={`${styles.flexCenter} flex-1 flex md:my-0 my-10 relative`}>
       <Image
         src={robot}
-        alt="AI StudyStation"
+        alt="BusinessHub Pro"
         className="w-[100%] h-[100%] relative z-[5] animate-float"
       />
       <div className="absolute z-[0] w-[40%] h-[35%] top-0 pink__gradient animate-pulse-slow" />
