@@ -55,13 +55,13 @@ FYP_Landing_Page/
 ├── app/                    # Next.js app directory
 ├── components/            # React components
 │   ├── Navbar.tsx        # Navigation bar
-│   ├── Hero.tsx          # Hero section
+│   ├── Home.tsx          # Home section
 │   ├── Business.tsx      # Features section
 │   ├── Stats.tsx         # Statistics
 │   ├── Billing.tsx       # Analytics dashboard
 │   ├── CardDeal.tsx      # Business plans section
-│   ├── Testimonials.tsx  # User testimonials
-│   ├── CTA.tsx           # Call to action
+│   ├── Transform.tsx  # User testimonials
+│   ├── Payment.tsx           # Call to action
 │   ├── Clients.tsx       # Partner logos
 │   └── Footer.tsx        # Footer
 ├── public/
