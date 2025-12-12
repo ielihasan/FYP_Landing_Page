@@ -6,12 +6,12 @@ import Image from "next/image";
 const CardDeal: React.FC = () => (
   <section className={`${layout.section}`}>
     <div className={`${layout.sectionInfo} animate-fade-in-left`}>
-      <h2 className={`${styles.heading2} font-josefin`}>
+      <h2 className={`${styles.heading2} font-poppins`}>
         Find a better card deal <br className="sm:block hidden" />
         in few easy steps.
       </h2>
       <p
-        className={`${styles.paragraph} font-josefin max-w-[470px] mt-5 animate-fade-in-left animation-delay-200`}
+        className={`${styles.paragraph} font-poppins max-w-[470px] mt-5 animate-fade-in-left animation-delay-200`}
       >
         Access exclusive student discounts and payment plans. Our token-based
         system offers flexible pricing options, allowing you to purchase

@@ -10,13 +10,13 @@ const Hero: React.FC = () => (
     >
       <div className="flex flex-row items-center py-[6px] px-4 bg-discount-gradient rounded-[10px] mb-2 animate-fade-in-down">
         <Image src={discount} alt="discount" className="w-[32px] h-[32px]" />
-        <p className="font-josefin text-dimWhite text-[18px] leading-[30.8px] ml-2">
+        <p className="font-poppins text-dimWhite text-[18px] leading-[30.8px] ml-2">
           <span className="text-white">Available</span> For{" "}
           <span className="text-white">Businesses</span> & Educators
         </p>
       </div>
       <div className="flex flex-row justify-between items-center w-full">
-        <h1 className="flex-1 font-josefin font-semibold ss:text-[72px] text-[52px] text-white ss:leading-[100px] leading-[75px] animate-fade-in-left">
+        <h1 className="flex-1 font-poppins font-semibold ss:text-[72px] text-[52px] text-white ss:leading-[100px] leading-[75px] animate-fade-in-left">
           The Next <br className="sm:block hidden" />{" "}
           <span className="text-gradient">Generation</span>{" "}
         </h1>
@@ -24,10 +24,10 @@ const Hero: React.FC = () => (
           <GetStarted />
         </div>
       </div>
-      <h1 className="w-full font-josefin font-semibold ss:text-[68px] text-[52px] text-white ss:leading-[100px] leading-[75px] animate-fade-in-left animation-delay-200">
+      <h1 className="w-full font-poppins font-semibold ss:text-[68px] text-[52px] text-white ss:leading-[100px] leading-[75px] animate-fade-in-left animation-delay-200">
         Study Platform.
       </h1>
-      <p className="font-josefin text-dimWhite text-[18px] leading-[30.8px] max-w-[470px] mt-5 animate-fade-in-up animation-delay-400">
+      <p className="font-poppins text-dimWhite text-[18px] leading-[30.8px] max-w-[470px] mt-5 animate-fade-in-up animation-delay-400">
         AI StudyStation revolutionizes academic workflows with intelligent note
         generation powered by GPT-4. Upload handwritten notes, generate
         structured study materials, and print securely at nearby print shops

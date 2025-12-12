@@ -15,7 +15,7 @@ const RootLayout = ({ children }: { children: React.ReactNode }) => {
         <meta name="theme-color" content="#000000" />
         <link rel="icon" href="/favicon.ico" />
       </head>
-      <body className="bg-primary text-white">{children}</body>
+      <body className="font-poppins bg-primary text-white">{children}</body>
     </html>
   );
 };
