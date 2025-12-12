@@ -10,13 +10,13 @@ const Hero: React.FC = () => (
     >
       <div className="flex flex-row items-center py-[6px] px-4 bg-discount-gradient rounded-[10px] mb-2 animate-fade-in-down">
         <Image src={discount} alt="discount" className="w-[32px] h-[32px]" />
-        <p className="font-josefin text-dimWhite text-[18px] leading-[30.8px] ml-2">
+        <p className="font-poppins text-dimWhite text-[18px] leading-[30.8px] ml-2">
           <span className="text-white">Available</span> For{" "}
-          <span className="text-white">Businesses</span> & Educators
+          <span className="text-white">All</span> Businesses
         </p>
       </div>
       <div className="flex flex-row justify-between items-center w-full">
-        <h1 className="flex-1 font-josefin font-semibold ss:text-[72px] text-[52px] text-white ss:leading-[100px] leading-[75px] animate-fade-in-left">
+        <h1 className="flex-1 font-poppins font-semibold ss:text-[72px] text-[52px] text-white ss:leading-[100px] leading-[75px] animate-fade-in-left">
           The Next <br className="sm:block hidden" />{" "}
           <span className="text-gradient">Generation</span>{" "}
         </h1>
@@ -24,20 +24,20 @@ const Hero: React.FC = () => (
           <GetStarted />
         </div>
       </div>
-      <h1 className="w-full font-josefin font-semibold ss:text-[68px] text-[52px] text-white ss:leading-[100px] leading-[75px] animate-fade-in-left animation-delay-200">
-        Study Platform.
+      <h1 className="w-full font-poppins font-semibold ss:text-[68px] text-[52px] text-white ss:leading-[100px] leading-[75px] animate-fade-in-left animation-delay-200">
+        Queue Management.
       </h1>
-      <p className="font-josefin text-dimWhite text-[18px] leading-[30.8px] max-w-[470px] mt-5 animate-fade-in-up animation-delay-400">
-        AI StudyStation revolutionizes academic workflows with intelligent note
-        generation powered by GPT-4. Upload handwritten notes, generate
-        structured study materials, and print securely at nearby print shops
-        with our token-based system.
+      <p className="font-poppins text-dimWhite text-[18px] leading-[30.8px] max-w-[470px] mt-5 animate-fade-in-up animation-delay-400">
+        BusinessHub Pro revolutionizes customer service with intelligent queue
+        management powered by AI. Streamline operations, reduce wait times, and
+        enhance customer experience with real-time analytics and automated
+        workflow optimization.
       </p>
     </div>
     <div className={`${styles.flexCenter} flex-1 flex md:my-0 my-10 relative`}>
       <Image
         src={robot}
-        alt="AI StudyStation"
+        alt="BusinessHub Pro"
         className="w-[100%] h-[100%] relative z-[5] animate-float"
       />
       <div className="absolute z-[0] w-[40%] h-[35%] top-0 pink__gradient animate-pulse-slow" />

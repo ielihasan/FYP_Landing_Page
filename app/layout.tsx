@@ -1,9 +1,9 @@
 import "@/styles/globals.css";
 
 export const metadata = {
-  title: "AI StudyStation",
+  title: "BusinessHub Pro",
   description:
-    "AI StudyStation: Intelligent Note Generation & Automated Printing System - Revolutionize your academic workflow with AI-powered note creation and secure printing services",
+    "BusinessHub Pro: Smart Business Queue Management System - Streamline your business operations with intelligent queue management and real-time customer flow optimization",
 };
 
 const RootLayout = ({ children }: { children: React.ReactNode }) => {
@@ -15,7 +15,7 @@ const RootLayout = ({ children }: { children: React.ReactNode }) => {
         <meta name="theme-color" content="#000000" />
         <link rel="icon" href="/favicon.ico" />
       </head>
-      <body className="bg-primary text-white">{children}</body>
+      <body className="font-poppins bg-primary text-white">{children}</body>
     </html>
   );
 };

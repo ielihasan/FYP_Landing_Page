@@ -11,20 +11,20 @@ const Navbar: React.FC = () => {
       <div className="flex items-center gap-2">
         <Image
           src={logo}
-          alt="AI StudyStation"
+          alt="BusinessHub Pro"
           width={40}
           height={40}
           className="animate-fade-in-left"
         />
-        <span className="font-josefin font-semibold text-white text-[20px] animate-fade-in-left animation-delay-200">
-          AIStudyStation
+        <span className="font-poppins font-semibold text-white text-[20px] animate-fade-in-left animation-delay-200">
+          BusinessHub Pro
         </span>
       </div>
       <ul className="list-none sm:flex hidden justify-end items-center flex-1">
         {navLinks.map((nav, index) => (
           <li
             key={nav.id}
-            className={`font-josefin font-normal cursor-pointer text-[16px] text-white hover:text-secondary transition-colors duration-300 animate-fade-in-down ${
+            className={`font-poppins font-normal cursor-pointer text-[16px] text-white hover:text-secondary transition-colors duration-300 animate-fade-in-down ${
               index === navLinks.length - 1 ? "mr-0" : "mr-10"
             }`}
             style={{ animationDelay: `${index * 0.1}s` }}
@@ -50,7 +50,7 @@ const Navbar: React.FC = () => {
             {navLinks.map((nav, index) => (
               <li
                 key={nav.id}
-                className={`font-josefin font-normal cursor-pointer text-[16px] text-white ${
+                className={`font-poppins font-normal cursor-pointer text-[16px] text-white ${
                   index === navLinks.length - 1 ? "mr-0" : "mb-4"
                 }`}
               >

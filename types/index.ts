@@ -15,3 +15,7 @@ export interface FeedBackProps {
     name: string;
     img: string | any;
 }
+
+export interface FeedbackCardProps extends FeedBackProps {
+    index: number;
+}

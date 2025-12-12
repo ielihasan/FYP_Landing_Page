@@ -22,10 +22,10 @@ const FeaturesCard: React.FC<FeatredCardProps> = ({
       <Image src={icon} alt="icon" className="w-[50%] h-[50%] object-contain" />
     </div>
     <div className="flex-1 flex flex-col ml-3">
-      <h4 className="font-josefin font-semibold text-white text-[18px] leading-[24px]">
+      <h4 className="font-poppins font-semibold text-white text-[18px] leading-[24px]">
         {title}
       </h4>
-      <p className="font-josefin font-normal text-dimWhite text-[16px] leading-[24px]">
+      <p className="font-poppins font-normal text-dimWhite text-[16px] leading-[24px]">
         {content}
       </p>
     </div>
@@ -35,18 +35,18 @@ const FeaturesCard: React.FC<FeatredCardProps> = ({
 const Business: React.FC = () => (
   <section id="features" className={`${layout.section}`}>
     <div className={`${layout.sectionInfo} animate-fade-in-left`}>
-      <h2 className={`${styles.heading2} font-josefin`}>
-        Focus on your studies, <br className="sm:block hidden" />
-        We'll handle the notes.
+      <h2 className={`${styles.heading2} font-poppins`}>
+        Focus on your business, <br className="sm:block hidden" />
+        We'll handle the queues.
       </h2>
       <p
-        className={`${styles.paragraph} font-josefin max-w-[470px] mt-5 animate-fade-in-left animation-delay-200`}
+        className={`${styles.paragraph} font-poppins max-w-[470px] mt-5 animate-fade-in-left animation-delay-200`}
       >
-        AI StudyStation revolutionizes your academic workflow by automating note
-        generation and printing. Upload your topics or handwritten notes, and
-        our AI-powered system creates structured, editable study materials
-        instantly. Get your printed notes delivered securely through our
-        token-based printing system.
+        BusinessHub Pro revolutionizes your customer service operations by
+        automating queue management. Monitor real-time customer flow, optimize
+        staff allocation, and reduce wait times with our AI-powered system.
+        Improve customer satisfaction with intelligent queue analytics and
+        automated notifications.
       </p>
       <Button styles="mt-10 animate-fade-in-left animation-delay-400" />
     </div>

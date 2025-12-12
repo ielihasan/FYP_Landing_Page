@@ -6,12 +6,12 @@ const CTA: React.FC = () => (
     className={`${styles.flexCenter} ${styles.marginY} ${styles.padding} sm:flex-row flex-col bg-black-gradient-2 rounded-[20px] box-shadow`}
   >
     <div className="flex-1 flex flex-col animate-fade-in-left">
-      <h2 className={`${styles.heading2} font-josefin`}>
+      <h2 className={`${styles.heading2} font-poppins`}>
         Let's try our service now!
       </h2>
-      <p className={`${styles.paragraph} font-josefin max-w-[470px] mt-5`}>
-        Join thousands of students and educators who are already experiencing
-        the future of academic note-taking and printing.
+      <p className={`${styles.paragraph} font-poppins max-w-[470px] mt-5`}>
+        Join thousands of businesses who are already experiencing the future of
+        efficient queue management and customer service optimization.
       </p>
     </div>
     <div
