@@ -15,7 +15,7 @@ const Billing: React.FC = () => (
     </div>
     <div className={`${layout.sectionInfo} animate-fade-in-right`}>
       <h2 className={`${styles.heading2} font-poppins`}>
-        Comprehensive Analytics &amp; <br className="sm:block hidden" />
+        Comprehensive Analytics & <br className="sm:block hidden" />
         <span className="text-gradient">Reporting Dashboard</span>
       </h2>
       <p
